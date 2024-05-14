@@ -1,0 +1,10 @@
+  /* Estilo para la imagen */
+  #imagen {
+    width: 300px;
+    transition: transform 0.5s;
+}
+
+/* Estilo para la imagen cuando se pasa el ratón */
+#imagen:hover {
+    transform: scale(1.2); /* Aumenta el tamaño al 120% */
+}

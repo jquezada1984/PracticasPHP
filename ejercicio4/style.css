@@ -1,0 +1,33 @@
+ /* Estilo para el reloj */
+ #reloj {
+  width: 200px;
+  height: 200px;
+  background-image: url('reloj_fondo.png');
+  background-size: cover;
+  position: relative;
+}
+
+/* Estilo para las manecillas */
+.manecilla {
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background-color: black;
+  left: 50%;
+  transform-origin: 50% 100%;
+}
+
+#hora {
+  background-color: blue;
+  transform: rotate(90deg);
+}
+
+#minuto {
+  background-color: blueviolet;
+  transform: rotate(90deg);
+}
+
+#segundo {
+  background-color: red;
+  transform: rotate(90deg);
+}
